@@ -53,7 +53,7 @@
 <!--                            <useUnlimitedThreads>true</useUnlimitedThreads>-->
                             <includes>
                                 <!-- for  run class or classes-->
-                                <include>**/_04_TestRunnerRegressionWithPlugin.java</include>
+                                <include>**/_02_TestRunnerBelirliTestler.java</include>
                             </includes>
                             <testFailureIgnore>true</testFailureIgnore>
                         </configuration>
