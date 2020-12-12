@@ -94,11 +94,8 @@
                         <artifactId>maven-surefire-plugin</artifactId>
                         <version>3.0.0-M1</version>
                         <configuration>
-<!--                             for parallel running Cucumber-->
-<!--                            <parallel>methods</parallel>-->
-<!--                            <useUnlimitedThreads>true</useUnlimitedThreads>-->
                             <suiteXmlFiles>
-                                <suiteXmlFile>testng.xml</suiteXmlFile> <!-- the file name to be run by mvn -->
+                                <suiteXmlFile>ParallelScenarios.xml</suiteXmlFile> <!-- the file name to be run by mvn -->
                             </suiteXmlFiles>
                         </configuration>
                     </plugin>
