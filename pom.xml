@@ -143,12 +143,12 @@
         </dependency>
 
         <!-- TestNG için eklendi -->
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.1.0</version>
-            <scope>test</scope>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.testng</groupId>-->
+<!--            <artifactId>testng</artifactId>-->
+<!--            <version>7.1.0</version>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
 
         <!-- Cucumber ile test ng nin bağlantısı cucumber ile aynı versiyon olmalı -->
         <dependency>
