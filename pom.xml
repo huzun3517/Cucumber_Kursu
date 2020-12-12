@@ -31,7 +31,7 @@
 <!--                            <useUnlimitedThreads>true</useUnlimitedThreads>-->
                             <includes>
                                 <!-- for  run class or classes-->
-                                <include>${basedir}/src/main/java/_03_TestRunnerSmoke.java</include>
+                                <include>${basedir}/src/main/test/java/Runner/_03_TestRunnerSmoke.java</include>
                             </includes>
                             <testFailureIgnore>true</testFailureIgnore>
                         </configuration>
