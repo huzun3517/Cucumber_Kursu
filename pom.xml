@@ -72,9 +72,14 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M1</version>
                 <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>ParallelScenarios.xml</suiteXmlFile> <!-- the file name to be run by mvn -->
-                    </suiteXmlFiles>
+                    <!-- for parallel running Cucumber-->
+<!--                    <parallel>methods</parallel>-->
+<!--                    <useUnlimitedThreads>true</useUnlimitedThreads>-->
+                    <includes>
+                        <!-- for  run class or classes-->
+                        <include>**/_04_TestRunnerRegressionWithPlugin.java</include>
+                    </includes>
+                    <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
 
