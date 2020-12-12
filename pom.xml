@@ -24,7 +24,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-surefire-plugin</artifactId>
-                        <version>3.0.0-M5</version>
+                        <version>3.0.0-M1</version>
                         <configuration>
 <!--                            &lt;!&ndash; for parallel running Cucumber&ndash;&gt;-->
 <!--                            <parallel>methods</parallel>-->
@@ -46,7 +46,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-surefire-plugin</artifactId>
-                        <version>3.0.0-M5</version>
+                        <version>3.0.0-M1</version>
                         <configuration>
                             <!-- for parallel running Cucumber-->
 <!--                            <parallel>methods</parallel>-->
@@ -70,7 +70,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M5</version>
+                <version>3.0.0-M1</version>
                 <configuration>
                     <!-- for parallel running Cucumber-->
 <!--                    <parallel>methods</parallel>-->
