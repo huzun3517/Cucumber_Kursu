@@ -19,7 +19,7 @@ Feature: Nationalities functionality
     Then User delete the "ismetish21"
     Then Success message should be displayed
 
-  @SmokeTest @RegressionTest
+  @RegressionTest
   Scenario: Nationalities All functionality
     Then Create a Nationality name as "iscb9"
     Then Success message should be displayed
