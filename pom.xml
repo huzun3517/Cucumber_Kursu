@@ -120,7 +120,7 @@
                         <configuration>
                             <includes>
                                 <!-- for  run class or classes-->
-                                <include>src/test/java/Runners/_03_TestRunnerSmoke.java</include>
+                                <include>**/_04_TestRunnerRegressionWithPlugin.java</include>
                             </includes>
                             <testFailureIgnore>true</testFailureIgnore>
                         </configuration>
@@ -132,24 +132,24 @@
     </profiles>
 
 
-<!--    <build>-->
-<!--        <plugins>-->
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-surefire-plugin</artifactId>-->
-<!--                <version>3.0.0-M1</version>-->
-<!--                <configuration>-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M1</version>
+                <configuration>
 
-<!--                    <includes>-->
-<!--                        &lt;!&ndash; for  run class or classes  **/:bulunduğu lokasyonu bütün klasörlere göre bulabiliyor   &ndash;&gt;-->
-<!--                        <include>**/_03_TestRunnerSmoke.java</include>-->
-<!--                    </includes>-->
-<!--                    <testFailureIgnore>true</testFailureIgnore>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
+                    <includes>
+                        <!-- for  run class or classes  **/:bulunduğu lokasyonu bütün klasörlere göre bulabiliyor   -->
+                        <include>**/_03_TestRunnerSmoke.java</include>
+                    </includes>
+                    <testFailureIgnore>true</testFailureIgnore>
+                </configuration>
+            </plugin>
 
-<!--        </plugins>-->
-<!--    </build>-->
+        </plugins>
+    </build>
 
 
 

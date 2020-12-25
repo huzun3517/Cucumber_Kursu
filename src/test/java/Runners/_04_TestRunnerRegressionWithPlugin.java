@@ -29,3 +29,4 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 public class _04_TestRunnerRegressionWithPlugin extends AbstractTestNGCucumberTests {
 
 }
+
