@@ -17,7 +17,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
  */
 
 @CucumberOptions(
-        tags = {"@RegressionTest"},
+        tags = {"@SmokeTest"},
         features = {"src/test/java/FeatureFiles"},
         glue = {"StepDefinitions"},
         dryRun = false,
