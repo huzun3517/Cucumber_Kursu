@@ -120,7 +120,7 @@
                         <configuration>
                             <includes>
                                 <!-- for  run class or classes-->
-                                <include>**/_03_TestRunnerSmoke*.java</include>
+                                <include>**/_03_TestRunnerSmoke.java</include>
                             </includes>
                             <testFailureIgnore>true</testFailureIgnore>
                         </configuration>
