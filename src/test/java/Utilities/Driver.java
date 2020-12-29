@@ -63,7 +63,9 @@ public class Driver {
                     WebDriverManager.chromedriver().setup();
                     threadDriver.set( new ChromeDriver() );
                     break;
-            */
+
+             */
+
 
 
         /*     todo   Jetkins de calıştırmak icin yukarıdaki default kısmını yoruma alıp, aşagidaki default bölümünün yorumunu açmalısın.
@@ -79,6 +81,7 @@ public class Driver {
 
                     threadDriver.set( new ChromeDriver(options) );
                     break;
+
 
 
 
