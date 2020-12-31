@@ -58,13 +58,15 @@ public class Driver {
                     WebDriverManager.operadriver().setup();
                     threadDriver.set(new OperaDriver());
                     break;
-            /*
+        /*
                 default:
                     WebDriverManager.chromedriver().setup();
                     threadDriver.set( new ChromeDriver() );
                     break;
 
-             */
+         */
+
+
 
 
 
@@ -81,6 +83,8 @@ public class Driver {
 
                     threadDriver.set( new ChromeDriver(options) );
                     break;
+
+
 
 
 
