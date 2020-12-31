@@ -63,10 +63,7 @@ public class Driver {
                     WebDriverManager.chromedriver().setup();
                     threadDriver.set( new ChromeDriver() );
                     break;
-
          */
-
-
 
 
 
@@ -83,10 +80,6 @@ public class Driver {
 
                     threadDriver.set( new ChromeDriver(options) );
                     break;
-
-
-
-
 
 
             }
